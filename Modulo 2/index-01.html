@@ -1,0 +1,21 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>Manipulando a DOOM</title>
+  </head>
+<!--A DOOM é a árvore de elementos do HTML, visualmente dispostos-->
+  <body>
+    <div id="app">
+      <button onclick="mostraAlerta()">Me pressione</button>
+      <button onmouseover="mostraAlertaAoPassaremCima()">Pressione-me</button>
+    </div>
+    <script>
+      function mostraAlerta() {
+        alert('Botão foi clicado');
+      }
+      function mostraAlertaAoPassaremCima() {
+        alert('Você passou o mouse em cima!');
+      }
+    </script>
+  </body>
+</html>
