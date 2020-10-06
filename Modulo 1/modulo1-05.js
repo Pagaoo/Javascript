@@ -1,0 +1,5 @@
+//condição ternária
+var sexo = 'M';
+
+var retorno = (sexo == 'M') ? 'Masculino': 'Feminino';
+console.log(retorno);
